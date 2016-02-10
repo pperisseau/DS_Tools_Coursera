@@ -1,0 +1,7 @@
+Aide mémoire pour utilisation de Git / Github
+
+Pour importer un repo à partir de Github
+
+Se positionner dans le répertoire ou l'on souhaite installer le repo
+> cd <rep_cible>
+> git clone https://github/pperisseau/<nom_projet>
