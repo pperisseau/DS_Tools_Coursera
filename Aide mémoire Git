@@ -5,3 +5,38 @@ Pour importer un repo à partir de Github
 Se positionner dans le répertoire ou l'on souhaite installer le repo
 > cd <rep_cible>
 > git clone https://github/pperisseau/<nom_projet>
+
+# pour connaitre le status des changements 
+> git status
+
+# If you add new files in repo, you need to let Git know that they need to be track
+> git add .     (add all new files)
+> git add -u    (update tracking for files that changed names or were deleted)
+> git add -A    (does both of the previous)
+
+you should do this before commiting
+
+You have change you want to commit to be saved as n intermediate version
+
+> git commit -m "message of desription"
+this action only updates the local repo, not Github
+
+# when you want to push your local repo to Github
+> git push
+
+# to create a new branch
+> git checkout -b <branchname>
+
+# to check what branch you are on type :
+> git branch
+
+# to switch to another branch type
+> git checkout <branchname>
+
+# to delete a branch on a local repo
+> git branch -d the_local_branch
+
+
+aide en ligne :
+https://help.github.com/
+https://git-scm.com/doc
